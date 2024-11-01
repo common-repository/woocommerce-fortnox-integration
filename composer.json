@@ -1,0 +1,4 @@
+{
+  "name": "wetail/woocommerce-fortnox-integration",
+  "description": "A Fortnox 3 API Interface. Synchronizes products, orders and more to Fortnox. Also updated inventory from Fortnox to WooCommerce."
+}

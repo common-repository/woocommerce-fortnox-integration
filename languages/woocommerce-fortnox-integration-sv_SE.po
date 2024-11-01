@@ -1,0 +1,1302 @@
+# Copyright (C) 2018 Fortnox integration for WooCommerce
+# This file is distributed under the same license as the Fortnox integration for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fortnox integration for WooCommerce 3.20.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/trans\n"
+"POT-Creation-Date: 2024-07-05 16:53+0200\n"
+"PO-Revision-Date: 2024-07-05 16:54+0200\n"
+"Last-Translator: Wetail Support <support@wetail.se>\n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+"X-Poedit-SearchPathExcluded-1: css\n"
+"X-Poedit-SearchPathExcluded-2: scss\n"
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:43
+msgid "Account for sales with 25% VAT"
+msgstr "Konto för försäljning med 25% moms"
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:44
+msgid "Account for sales with 12% VAT"
+msgstr "Konto för försäljning med 12% moms"
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:45
+msgid "Account for sales with 6% VAT"
+msgstr "Konto för försäljning med 6% moms"
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:46
+msgid "Account for sales with no VAT"
+msgstr "Konto för försäljning utan moms"
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:53
+msgid "Accounting"
+msgstr "Bokföring"
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:61
+msgid "Revenue accounts"
+msgstr "Intäktskonton"
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:62
+msgid ""
+"Revenue accounts for different VAT percentages, if below is not filled, "
+"defaults are applied."
+msgstr "Konton för olika momssatser, om ej ifyllt används standard."
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:84
+msgid "Invoice Payment accounts"
+msgstr "Betalkonto"
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:85
+#, php-format
+msgid ""
+"When an invoice is booked in Fortnox it will per default be booked by "
+"debiting the Fortnox default receivables account %d. When a payment is "
+"booked, the Fortnox default payment account %d will be debited. In this "
+"section you can change the default payment account for each payment type in "
+"order to get a ledger for each."
+msgstr ""
+"När en faktura bokförs i Fortnox kommer den automatiskt bokas mot det "
+"fordranskonto som angetts som standard i Fortnox (%d). När en betalning "
+"bokförs debitera istället det betalkonto som angetts som standard i Fortnox "
+"(%d). I denna sektion kan du sätta ett annat betalkonto för varje aktivt "
+"betalsätt och på så sätt skapa en reskontra."
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:97
+msgid "Invoice payment account for:"
+msgstr "Betalkonto för:"
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:111
+msgid "Payment terms"
+msgstr "Betalningsvillkor"
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:112
+msgid ""
+"Each payment method can have it's own payment terms, usually given in days. "
+"Mostly 0 is the most adequate choice as long as it is not a payment method "
+"where the customer does not make a direct purchase."
+msgstr ""
+"Varje betalsätt kan ha sina egna betalningsvillkor, vanligtvis angivna i "
+"dagar. Oftast är 0 det mest rimliga alternativet så länge det inte rör sig "
+"om betalsätt där kunden inte gör en direktbetalning."
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:124
+msgid "Payment terms for:"
+msgstr "Betalningsvillkor för:"
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:138
+msgid "EU Sales Accounts"
+msgstr "Försäljningskonton EU"
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:139
+msgid ""
+"Here you can define sales accounts per country. If an account is defined for "
+"a country, the orders and its invoice will be booked on that account. If "
+"nothing is specified Fortnox accounting settings will be used for booking "
+"the invoice."
+msgstr ""
+"Här definieras försäljningskonton per land. Om ett konto för ett land anges "
+"här kommer det användas för bokning av orderns faktura. Om inget anges "
+"kommer Fortnox default inställningar att användas bid bokning av fakturan."
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:149
+msgid "Sales Account: "
+msgstr "Försäljningskonto: "
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:181
+#: inc/admin_views/class-wf-advanced-settings-view.php:115
+#: inc/admin_views/class-wf-order-settings-view.php:155
+#: inc/admin_views/class-wf-product-settings-view.php:112
+#: inc/admin_views/class-wf-shipping-settings-view.php:97
+msgid "Please select..."
+msgstr "Välj..."
+
+#: inc/admin_views/class-wf-accounting-settings-view.php:187
+msgid "No payment terms available in Fortnox"
+msgstr "Inga betalningsvillkor tillgängliga i Fortnox"
+
+#: inc/admin_views/class-wf-admin-listing-actions.php:32
+#: inc/admin_views/class-wf-admin-listing-actions.php:112
+msgid "Missing order ID."
+msgstr "Saknar order-id."
+
+#: inc/admin_views/class-wf-admin-listing-actions.php:65
+msgid "Order successfully synced."
+msgstr "Order har synkroniserats."
+
+#: inc/admin_views/class-wf-admin-listing-actions.php:71
+#: inc/admin_views/class-wf-admin-listing-actions.php:139
+#: inc/fortnox/class-wf-plugin.php:158
+msgid "Error"
+msgstr "Fel"
+
+#: inc/admin_views/class-wf-admin-listing-actions.php:83
+msgid "Missing product ID."
+msgstr "Saknar produkt-id."
+
+#: inc/admin_views/class-wf-admin-listing-actions.php:99
+msgid "Product successfully synced."
+msgstr "Produkt har synkroniserats."
+
+#: inc/admin_views/class-wf-admin-listing-actions.php:133
+msgid "Invoice successfully sent to your e-mail."
+msgstr "Faktura har skickats till din email."
+
+#: inc/admin_views/class-wf-admin-listing-actions.php:151
+msgid "No products available."
+msgstr "Inga produkter tillgängliga."
+
+#: inc/admin_views/class-wf-admin-listing-actions.php:185
+msgid "No orders available in specified range."
+msgstr "Inga ordrar tillgängliga inom specificerat intervall."
+
+#: inc/admin_views/class-wf-admin-listing-actions.php:205
+msgid "Access token has been removed."
+msgstr "Access token har raderats."
+
+#: inc/admin_views/class-wf-admin-listing-actions.php:269
+msgid "Order refund successfully synced."
+msgstr "Retur har synkroniserats."
+
+#: inc/admin_views/class-wf-advanced-settings-view.php:26
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: inc/admin_views/class-wf-advanced-settings-view.php:33
+msgid "Advanced settings"
+msgstr "Avancerade inställningar"
+
+#: inc/admin_views/class-wf-advanced-settings-view.php:40
+#: inc/admin_views/class-wf-advanced-settings-view.php:43
+msgid "Flush access token"
+msgstr "Radera Access Token"
+
+#: inc/admin_views/class-wf-advanced-settings-view.php:51
+#, php-format
+msgid ""
+"Delete Fortnox access token. <a href=\"%s\" target=\"_blank\">Read more</a>"
+msgstr ""
+"Radera Fortnox Access Token. <a href=\"%s\" target=\"_blank\">Läs mer</a>"
+
+#: inc/admin_views/class-wf-advanced-settings-view.php:59
+msgid ""
+"This plugin has a bunch of actions and filters that developers can use to "
+"easily add/change data in the different stages of the flow."
+msgstr ""
+"Detta plugin har ett antal actions och filter som utvecklare kan använda för "
+"att enkelt lägga till/ändra data vid olika steg i flödet."
+
+#: inc/admin_views/class-wf-advanced-settings-view.php:60
+msgid ""
+"For an updated listing, please refer to <a href=\"https://docs.wetail.io/"
+"woocommerce/fortnox-integration/advanced-actions-and-filters/\" "
+"target=\"_blank\">our docs</a>."
+msgstr ""
+"För en uppdaterad lista, vänligen gå till <a href=\"https://docs.wetail.io/"
+"woocommerce/fortnox-integration/advanced-actions-and-filters/\" "
+"target=\"_blank\">våra docs</a>."
+
+#: inc/admin_views/class-wf-advanced-settings-view.php:61
+msgid "Hooks to use"
+msgstr "Tillgängliga hooks"
+
+#: inc/admin_views/class-wf-advanced-settings-view.php:69
+msgid "Oauth Access Token"
+msgstr "Oauth Access Token"
+
+#: inc/admin_views/class-wf-advanced-settings-view.php:70
+msgid "Access Token"
+msgstr "Access Token"
+
+#: inc/admin_views/class-wf-advanced-settings-view.php:78
+#: inc/admin_views/class-wf-advanced-settings-view.php:79
+msgid "Refresh Token"
+msgstr "Refresh Token"
+
+#: inc/admin_views/class-wf-advanced-settings-view.php:87
+#: inc/admin_views/class-wf-advanced-settings-view.php:88
+msgid "Access Token Expiry time"
+msgstr "Förfallotid för Access token"
+
+#: inc/admin_views/class-wf-advanced-settings-view.php:97
+msgid "Fortnox Client ID"
+msgstr "Fortnox Client ID"
+
+#: inc/admin_views/class-wf-advanced-settings-view.php:98
+msgid ""
+"The Client ID used, do not edit if you do not have a multishop integration"
+msgstr "Appens ClientID, ändra INTE om du inte har en multishop integration"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:24
+msgid "Automations"
+msgstr "Automatiseringar"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:36
+msgid "Only manual synchronization"
+msgstr "Enbart manuell synkronisering"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:43
+#: inc/admin_views/class-wf-shipping-settings-view.php:30
+msgid "General settings"
+msgstr "Generella inställningar"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:51
+msgid "Automatically sync on order status"
+msgstr "Synkronisera automatiskt på orderstatus"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:54
+msgid ""
+"Whenever an order gets the selected status it will automatically be synced "
+"to Fortnox."
+msgstr ""
+"När helst en order får vald status kommer den att automatiskt synkroniseras "
+"mot Fortnox."
+
+#: inc/admin_views/class-wf-automation-settings-view.php:55
+msgid ""
+"Not selecting an order status will mean that all synchronization has to be "
+"done manually!"
+msgstr ""
+"Om man inte väljer en orderstatus innebär det att all synkronisering måste "
+"ske manuellt!"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:62
+msgid "Invoice flow"
+msgstr "Fakturaflöde"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:70
+msgid "Invoice settings"
+msgstr "Fakturainställningar"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:74
+msgid "Create invoice when order successfully synchronised"
+msgstr "Skapa faktura när order har synkroniserats"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:75
+msgid "This will create an invoice in Fortnox for each synchronized order."
+msgstr ""
+"Detta val kommer att skapa en faktura i Fortnox för varje synkroniserad "
+"order."
+
+#: inc/admin_views/class-wf-automation-settings-view.php:79
+msgid "Automatically send Fortnox invoice to customer"
+msgstr "Skicka automatiskt Fortnox-faktura till kund"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:80
+msgid ""
+"The above option only creates the invoices. By selecting this option, the "
+"invoices will automatically be sent to the customer as well."
+msgstr ""
+"Alternativet ovan skapar enbart fakturorna. Detta alternativ kommer även att "
+"skicka dessa fakturor till kunden automatiskt."
+
+#: inc/admin_views/class-wf-automation-settings-view.php:84
+msgid "Automatically book created invoice"
+msgstr "Bokför skapad faktura automatiskt"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:86
+msgid ""
+"This option will book the invoice with the Fortnox default receivable "
+"account."
+msgstr ""
+"Detta alternativ kommer att bokföra fakturan mot det fordranskonto som "
+"angivits i Fortnox."
+
+#: inc/admin_views/class-wf-automation-settings-view.php:87
+msgid ""
+"When an invoice is booked it cannot be changed. Selecting this option will "
+"automate the process, but <b class=\"red warning\">changes will not be "
+"possible to any invoices</b>."
+msgstr ""
+"När en faktura har bokförts kan den inte uppdatera. Detta alternativ kommer "
+"att automatisera processen, men <b class=\"red warning\">ändringar kommer "
+"inte att vara möjliga i några fakturor</b>."
+
+#: inc/admin_views/class-wf-automation-settings-view.php:91
+msgid "Automatically register a payment for each created invoice"
+msgstr ""
+"Registrera automatiskt en tillhörande betalning för varje skapad faktura"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:92
+msgid ""
+"Card payments, PayPal, Klarna, Swish etc will charge the customer directly "
+"and not allow an order if no payment has been made, meaning you can automate "
+"the payment registration process."
+msgstr ""
+"Kortbetalningar, PayPal, Klarna, Swish etc kommer att göra direkta "
+"dragningar på kunden och inte tillåta ordrar om ingen betalning erhållits, "
+"vilket betyder att man kan automatisera processen för registreringen av "
+"betalningar."
+
+#: inc/admin_views/class-wf-automation-settings-view.php:101
+msgid "Refund flow"
+msgstr "Flöde för returer"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:109
+msgid "Refund settings"
+msgstr "Inställningar för returer"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:113
+msgid "Create a refund order in Fortnox on WooCommerce refunds"
+msgstr "Skapa en kreditorder i Fortnox vid returer i WooCommerce"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:114
+msgid ""
+"This option will create a refund order in Fortnox if a refund is made in "
+"WooCommerce. Partial refunds will be refunded partially."
+msgstr ""
+"Detta alternativ kommer att skapa en krediterande order i Fortnox om en "
+"retur görs i WooCommerce. Delvisa returer kommer att medföra "
+"delkrediteringar."
+
+#: inc/admin_views/class-wf-automation-settings-view.php:118
+msgid "Create invoice when successfully synchronised refund"
+msgstr "Skapa en faktura när en retur har har synkroniserat klart"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:119
+msgid "This option will create a corresponding refund invoice (credit note)."
+msgstr "Detta alternativ kommer att skapa en motsvarande kreditfaktura."
+
+#: inc/admin_views/class-wf-automation-settings-view.php:123
+msgid "Automatically book refund invoice"
+msgstr "Bokför kreditfaktura automatiskt"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:124
+msgid ""
+"This option will book the refund invoice with the Fortnox default receivable "
+"account."
+msgstr ""
+"Detta alternativ kommer att bokföra kreditfakturan mot det fordranskonto som "
+"angivits i Fortnox."
+
+#: inc/admin_views/class-wf-automation-settings-view.php:128
+msgid "Automatically set refund invoice as paid"
+msgstr ""
+"Registrera automatiskt en tillhörande betalning för varje skapad  "
+"kreditfaktura"
+
+#: inc/admin_views/class-wf-automation-settings-view.php:129
+msgid "This option will set the refund invoice as paid"
+msgstr "Detta alternativ kommer att skapa en motsvarande kreditfaktura"
+
+#: inc/admin_views/class-wf-bulk-settings-view.php:24
+#: inc/admin_views/class-wf-bulk-settings-view.php:31
+msgid "Bulk actions"
+msgstr "Masshantering"
+
+#: inc/admin_views/class-wf-bulk-settings-view.php:32
+msgid ""
+"Useful bulk actions to perform retroactively between WooCommerce and Fortnox."
+msgstr ""
+"Användbara masshanteringalternativ som kan användas retroaktivt mellan "
+"WooCommerce och Fortnox."
+
+#: inc/admin_views/class-wf-bulk-settings-view.php:39
+#: inc/admin_views/class-wf-bulk-settings-view.php:42
+msgid "Sync products"
+msgstr "Synkronisera produkter"
+
+#: inc/admin_views/class-wf-bulk-settings-view.php:54
+msgid ""
+"Upload all products from WooCommerce to Fortnox. It may take a while to "
+"synchronise large shops."
+msgstr ""
+"Uppdatera alla produkter från WooCommerce till Fortnox. Det kan ta ett tag."
+
+#: inc/admin_views/class-wf-bulk-settings-view.php:61
+#: inc/admin_views/class-wf-bulk-settings-view.php:64
+msgid "Sync orders"
+msgstr "Synkronisera ordrar"
+
+#: inc/admin_views/class-wf-bulk-settings-view.php:76
+msgid "Sync orders placed in date range."
+msgstr "Synkronisera ordrar som lägst inom datumintervallet."
+
+#: inc/admin_views/class-wf-general-settings-view.php:25
+#: inc/wetail/admin/class-wf-admin-settings.php:58
+msgid "General"
+msgstr "Allmänt"
+
+#: inc/admin_views/class-wf-general-settings-view.php:36
+msgid "Status"
+msgstr "Status"
+
+#: inc/admin_views/class-wf-general-settings-view.php:49
+msgid "1. Wetail license key"
+msgstr "1. Wetail licensnyckel"
+
+#: inc/admin_views/class-wf-general-settings-view.php:50
+msgid ""
+"Your Wetail license key that you got in the confirmation mail of your order."
+"<br>If you haven't signed up yet, <a href=\"https://wetail.io/service/"
+"integrationer/woocommerce-fortnox/\" target=\"_blank\">use this link</a>."
+msgstr ""
+"Din Wetail licensnyckel som du fått i bekräftelsemailet på din order.<br>Om "
+"du inte har tecknat ett abonnemang än, <a href=\"https://wetail.io/service/"
+"integrationer/woocommerce-fortnox/\" target=\"_blank\">använd denna länk</a>."
+
+#: inc/admin_views/class-wf-general-settings-view.php:52
+msgid "Save and check"
+msgstr "Spara och kontrollera"
+
+#: inc/admin_views/class-wf-general-settings-view.php:61
+msgid "2. Organization number"
+msgstr "2. Organisationsnummer"
+
+#: inc/admin_views/class-wf-general-settings-view.php:62
+msgid "Add your organization number here"
+msgstr "Lägg till ditt organisationsnummer här"
+
+#: inc/admin_views/class-wf-general-settings-view.php:64
+msgid "Register application"
+msgstr "Registrera applikation"
+
+#: inc/admin_views/class-wf-general-settings-view.php:70
+msgid "3. Activate app in Fortnox"
+msgstr "3. Aktivera appen i Fortnox"
+
+#: inc/admin_views/class-wf-general-settings-view.php:81
+msgid "4. Fetch settings from Fortnox"
+msgstr "4. Hämta inställningar från Fortnox"
+
+#: inc/admin_views/class-wf-general-settings-view.php:84
+msgid "Fetch settings"
+msgstr "Hämta inställningar"
+
+#: inc/admin_views/class-wf-general-settings-view.php:152
+#: inc/admin_views/class-wf-general-settings-view.php:163
+msgid "Inactive application"
+msgstr "Inaktiv applikation"
+
+#: inc/admin_views/class-wf-general-settings-view.php:153
+msgid "Log out"
+msgstr "Logga ut"
+
+#: inc/admin_views/class-wf-general-settings-view.php:154
+#, php-format
+msgid "Your application is active. %s"
+msgstr "Din applikation är aktiv. %s"
+
+#: inc/admin_views/class-wf-general-settings-view.php:157
+#, php-format
+msgid "Your application is active with %s as your organization number. %s"
+msgstr "Din applikation är aktiv med %s som organisationsnummer. %s"
+
+#: inc/admin_views/class-wf-general-settings-view.php:172
+msgid "Activate app"
+msgstr "Aktivera app"
+
+#: inc/admin_views/class-wf-general-settings-view.php:174
+msgid ""
+"Go to Fortnox and activate the application. Note! You need to be logged in "
+"to Fortnox to do this."
+msgstr ""
+"Gå till Fortnox och aktivera applikationen. Notera! Du behöver vara inloggad "
+"i Fortnox för att göra detta."
+
+#: inc/admin_views/class-wf-order-settings-view.php:23
+msgid "Orders"
+msgstr "Ordrar"
+
+#: inc/admin_views/class-wf-order-settings-view.php:31
+msgid "Misc. order settings"
+msgstr "Diverse orderinställningar"
+
+#: inc/admin_views/class-wf-order-settings-view.php:35
+msgid "Add payment type to order text"
+msgstr "Lägg till betalsätt till ordertext"
+
+#: inc/admin_views/class-wf-order-settings-view.php:36
+msgid "Writes order payment type to ordertext field in Fortnox."
+msgstr "Skriver orderns betalsätt i ordertextfältet i Fortnox."
+
+#: inc/admin_views/class-wf-order-settings-view.php:40
+msgid "Copy customer notes to order text"
+msgstr "Kopiera kundanteckningar till ordertext"
+
+#: inc/admin_views/class-wf-order-settings-view.php:41
+msgid "Writes customer notes to ordertext field in Fortnox."
+msgstr "Skriver kundnoteringar till ordertextfält i Fortnox."
+
+#: inc/admin_views/class-wf-order-settings-view.php:45
+msgid "Copy order text to invoice"
+msgstr "Kopiera ordertext till faktura"
+
+#: inc/admin_views/class-wf-order-settings-view.php:46
+msgid "Will copy the ordertext field to invoices in Fortnox."
+msgstr "Kopierar ordertextfältet till fakturan i Fortnox."
+
+#: inc/admin_views/class-wf-order-settings-view.php:50
+msgid "Get currency rate for currencies other than SEK"
+msgstr "Få växlingskurs för valuta andra än SEK"
+
+#: inc/admin_views/class-wf-order-settings-view.php:51
+msgid ""
+"Get currency rate for order if the currency isn't SEK. Please note that the "
+"currency rate is set from Fortnox settings."
+msgstr ""
+"Få växlingskurs för ordern om valutan är annan än SEK. Vänligen notera att "
+"växlingskursen hämtas från Fortnox inställningar."
+
+#: inc/admin_views/class-wf-order-settings-view.php:55
+msgid "Display organization registration number in checkout"
+msgstr "Visa organisationsnummer i kassan"
+
+#: inc/admin_views/class-wf-order-settings-view.php:56
+msgid ""
+"Extra field for Company organization registration number shows in the "
+"Checkout form."
+msgstr "Visar ett extra fält i kassaformuläret för organisationsnummer."
+
+#: inc/admin_views/class-wf-order-settings-view.php:60
+msgid "Do not update customer on order synchronisation"
+msgstr "Uppdatera inte kunden vid ordersynkronisering"
+
+#: inc/admin_views/class-wf-order-settings-view.php:61
+msgid ""
+"If customer exists in Fortnox, do not update customer on order "
+"synchronisation."
+msgstr "Om kund finns i Fortnox, uppdatera inte kund vid ordersynkronisering."
+
+#: inc/admin_views/class-wf-order-settings-view.php:65
+msgid "Adds customer notes to order"
+msgstr "Lägg till kundkommentar till ordertext"
+
+#: inc/admin_views/class-wf-order-settings-view.php:66
+msgid "Adds customer notes to order."
+msgstr "Lägg till kundkommentar till ordertext."
+
+#: inc/admin_views/class-wf-order-settings-view.php:70
+#: inc/admin_views/class-wf-order-settings-view.php:71
+msgid "If an error occurs an email will be sent to shop admin"
+msgstr ""
+"Om ett fel uppstår vid synkronisering kommer ett email att skicka till shop-"
+"administratören"
+
+#: inc/admin_views/class-wf-order-settings-view.php:81
+msgid "Active modules"
+msgstr "Aktiva moduler"
+
+#: inc/admin_views/class-wf-order-settings-view.php:85
+msgid "Fortnox Warehouse module"
+msgstr "Fortnox Lagermodul"
+
+#: inc/admin_views/class-wf-order-settings-view.php:86
+msgid ""
+"<b class=\"red warning\">IMPORTANT!</b> Select this option if you have the "
+"Fortnox Warehouse module activated."
+msgstr ""
+"<b class=\"red warning\">VIKTIGT!</b> Bocka i detta val om du har Fortnox "
+"Lagermodul aktiverad."
+
+#: inc/admin_views/class-wf-order-settings-view.php:96
+msgid "Delivery status"
+msgstr "Leveransstatus"
+
+#: inc/admin_views/class-wf-order-settings-view.php:112
+msgid "Sequential order number"
+msgstr "Sekventiellt ordernummer"
+
+#: inc/admin_views/class-wf-order-settings-view.php:113
+msgid "Sequential number to prepend to WooCommerce order number"
+msgstr ""
+"Sekventiellt nummer att lägga till före det ordernummer som skapas i "
+"WooCommerce"
+
+#: inc/admin_views/class-wf-order-settings-view.php:123
+msgid "Cost center"
+msgstr "Kostnadsställe"
+
+#: inc/admin_views/class-wf-order-settings-view.php:124
+msgid ""
+"Adds cost center for an order to use in bookkeeping. This is used within "
+"different sale channels in Fortnox."
+msgstr ""
+"Lägg till kostnadsställe på en order för att använda i bokföringen. Detta "
+"används sedan inom olika säljkanaler i Fortnox."
+
+#: inc/admin_views/class-wf-order-settings-view.php:133
+msgid "Administration fee name"
+msgstr "Benämning på administrationsavgift"
+
+#: inc/admin_views/class-wf-order-settings-view.php:134
+msgid ""
+"Use this setting to set specific fees as administration fee. If you are "
+"using multiple names, use comma as separator."
+msgstr ""
+"Använd detta alternativ till att specificera avgifter som "
+"administrationsavgift. Om du använder flera avgifter, använd komma för att "
+"separera dessa."
+
+#: inc/admin_views/class-wf-order-settings-view.php:145
+msgid "Delivery"
+msgstr "Leverera"
+
+#: inc/admin_views/class-wf-order-settings-view.php:149
+msgid "Reservation"
+msgstr "Reservation"
+
+#: inc/admin_views/class-wf-product-additional-fields.php:63
+#: inc/admin_views/class-wf-product-additional-fields.php:84
+msgid "Purchase price"
+msgstr "Inköpspris"
+
+#: inc/admin_views/class-wf-product-additional-fields.php:66
+msgid "Your total purchase price for this product. Will be synced to Fortnox."
+msgstr "Ert inköpspris för denna produkt."
+
+#: inc/admin_views/class-wf-product-settings-view.php:24
+msgid "Products"
+msgstr "Produkter"
+
+#: inc/admin_views/class-wf-product-settings-view.php:32
+msgid "Synchronization"
+msgstr "Synkronisering"
+
+#: inc/admin_views/class-wf-product-settings-view.php:33
+msgid "Synchronization settings"
+msgstr "Synkroniserings-inställningar"
+
+#: inc/admin_views/class-wf-product-settings-view.php:45
+msgid "Automatically synchronise products"
+msgstr "Synkronisera produkter automatiskt"
+
+#: inc/admin_views/class-wf-product-settings-view.php:46
+msgid ""
+"Whenever a product is changed in WooCommerce the change will be reflected in "
+"Fortnox."
+msgstr ""
+"När helst en produkt ändras i WooCommerce kommer ändringen att reflekteras i "
+"Fortnox."
+
+#: inc/admin_views/class-wf-product-settings-view.php:50
+msgid "Synchronise master product (must have SKU)."
+msgstr "Synkronisera förälderprodukt(måste ha SKU)"
+
+#: inc/admin_views/class-wf-product-settings-view.php:51
+msgid ""
+"When checked, the master product of a variation will be synchronized as well."
+msgstr ""
+"När detta alternativ är valt kommer även huvudprodukten till en variation "
+"att synkroniseras."
+
+#: inc/admin_views/class-wf-product-settings-view.php:55
+msgid "Do not synchronise product variations."
+msgstr "Synkronisera EJ produktvariationer."
+
+#: inc/admin_views/class-wf-product-settings-view.php:56
+msgid "When checked, only the master product will be synchronized."
+msgstr ""
+"När detta alternativ är valt kommer enbart huvudprodukten att synkroniseras."
+
+#: inc/admin_views/class-wf-product-settings-view.php:60
+msgid "Do not sync product price on sync."
+msgstr "Synkronisera EJ produktpris vid synkronisering."
+
+#: inc/admin_views/class-wf-product-settings-view.php:61
+msgid ""
+"Normally, the product price change in WooCommerce will update the price in "
+"Fortnox. This setting will disregard price updates in WooCommerce (although "
+"any order with this product will use the WooCommerce price)."
+msgstr ""
+"Normalt sett kommer en prisuppdatering i WooCommerce att uppdatera priset "
+"även i Fortnox. Denna inställning kommer att ignorera prisändringar i "
+"WooCommerce (ordrar där produktpriset skiljer sig åt kommer dock att använda "
+"sig av priset från WooCommerce)."
+
+#: inc/admin_views/class-wf-product-settings-view.php:65
+msgid "Do not sync product on order sync."
+msgstr "Synkronisera EJ produkt vid ordersynk."
+
+#: inc/admin_views/class-wf-product-settings-view.php:66
+msgid ""
+"Normally, when synchronizing an order the products of this order will update "
+"their counterparts in Fortnox. This setting will prohibit updating the "
+"products in Fortnox."
+msgstr ""
+"Normalt sett kommer en ordersynk att även uppdatera de produkter som ordern "
+"innehåller i Fortnox. Detta alternativ kommer att förhindra att produkter "
+"uppdateras i Fortnox vid ordersynken."
+
+#: inc/admin_views/class-wf-product-settings-view.php:70
+msgid "Automatically generate an SKU for products with missing SKU."
+msgstr ""
+"Generera artikelnummer automatiskt för artiklar som saknar artikelnummer."
+
+#: inc/admin_views/class-wf-product-settings-view.php:71
+msgid ""
+"Fortnox articles need to have an SKU. If a WooCommerce order contains "
+"products without SKUs, this setting will make sure that they get SKUs "
+"generated from their title."
+msgstr ""
+"Artiklar i Fortnox kräver artikelnummer. Om en order i WooCommerce "
+"innehåller produkter utan artikelnummer kommer det här alternativet att se "
+"till att ett artikelnummer genereras baserat på deras titel."
+
+#: inc/admin_views/class-wf-product-settings-view.php:75
+#: inc/admin_views/class-wf-product-settings-view.php:76
+msgid "Enable purchase price on product view."
+msgstr "Visa inköpspris i produktens redigeringsvy."
+
+#: inc/admin_views/class-wf-product-settings-view.php:91
+msgid "Price list"
+msgstr "Prislista"
+
+#: inc/admin_views/class-wf-product-settings-view.php:92
+msgid ""
+"Default Fortnox price list. Sets default price list to A when left empty."
+msgstr "Standard prislista i Fortnox. Om tom sätts den till prislista A."
+
+#: inc/admin_views/class-wf-product-settings-view.php:118
+msgid "No price lists available in Fortnox"
+msgstr "Inga prislistor tillgängliga i Fortnox"
+
+#: inc/admin_views/class-wf-shipping-settings-view.php:23
+msgid "Shipping"
+msgstr "Frakt"
+
+#: inc/admin_views/class-wf-shipping-settings-view.php:39
+msgid "Shipping product SKU"
+msgstr "Artikelnummer på fraktprodukt"
+
+#: inc/admin_views/class-wf-shipping-settings-view.php:40
+msgid ""
+"This settings is recommended if you're selling products with other VAT rate "
+"than 25%. Create an unpublished product with 25% VAT rate and specify its "
+"SKU here."
+msgstr ""
+"Detta alternativ rekommenderas om du säljer produkter med en annan momssats "
+"än 25%. Skapa en opublicerad produkter med 25% moms och ange dess "
+"artikelnummer här."
+
+#: inc/admin_views/class-wf-shipping-settings-view.php:49
+msgid "Shipping product SKU for countries outside EU"
+msgstr "Artikelnummer på fraktprodukt för frakt utanför EU"
+
+#: inc/admin_views/class-wf-shipping-settings-view.php:50
+msgid ""
+"This settings is recommended if you're selling products to countries outside "
+"EU. Create an unpublished product with 0% VAT rate and specify its SKU here."
+msgstr ""
+"Detta alternativ rekommenderas om du säljer produkter till länder utanför "
+"EU. Skapa en opublicerad produkter med 0% moms och ange dess artikelnummer "
+"här."
+
+#: inc/admin_views/class-wf-shipping-settings-view.php:55
+msgid "Shipping zone:"
+msgstr "Fraktzon:"
+
+#: inc/admin_views/class-wf-shipping-settings-view.php:70
+msgid "Shipping method:"
+msgstr "Fraktalternativ:"
+
+#: inc/admin_views/class-wf-shipping-settings-view.php:71
+#, php-format
+msgid "Code for '%s' shipping method from %s in Fortnox."
+msgstr "Kod för fraktalternativ ‘%s’ till %s i Fortnox."
+
+#: inc/admin_views/class-wf-shipping-settings-view.php:102
+msgid "No delivery ways available in Fortnox"
+msgstr "Inga leveranssätt tillgängliga i Fortnox"
+
+#: inc/admin_views/class-wf-upgrades-settings-view.php:28
+msgid "Upgrades"
+msgstr "Uppgraderingar"
+
+#: inc/admin_views/class-wf-upgrades-settings-view.php:51
+msgid "WooCommerce Fortnox Pro"
+msgstr "WooCommerce Fortnox Pro"
+
+#: inc/admin_views/class-wf-upgrades-settings-view.php:52
+msgid "Read inventory and/or prices from Fortnox to WooCommerce."
+msgstr "Läs in lager och/eller priser från Fortox till WooCommerce."
+
+#: inc/admin_views/class-wf-upgrades-settings-view.php:54
+#: inc/admin_views/class-wf-upgrades-settings-view.php:61
+msgid "month"
+msgstr "mån"
+
+#: inc/admin_views/class-wf-upgrades-settings-view.php:55
+#: inc/admin_views/class-wf-upgrades-settings-view.php:62
+msgid "Upgrade"
+msgstr "Uppgradera"
+
+#: inc/admin_views/class-wf-upgrades-settings-view.php:58
+msgid "Klarna Fortnox"
+msgstr "Klarna Fortnox"
+
+#: inc/admin_views/class-wf-upgrades-settings-view.php:59
+msgid "Automatic reconciliation between Klarna and Fortnox."
+msgstr "Automatisk avstämning mellan Klarna och Fortnox."
+
+#: inc/admin_views/class-wf-upgrades-settings-view.php:65
+msgid "Wetail Shipping"
+msgstr "Wetail Shipping"
+
+#: inc/admin_views/class-wf-upgrades-settings-view.php:66
+msgid ""
+"Print shipping labels and book carrier directly from WooCommerce order admin."
+msgstr ""
+"Skriv ut fraktsedlar och boka frakt direkt direkt från WooCommerce "
+"orderadmin."
+
+#: inc/admin_views/class-wf-upgrades-settings-view.php:68
+msgid "View pricing"
+msgstr "Se priser"
+
+#: inc/admin_views/class-wf-upgrades-settings-view.php:69
+msgid "Order"
+msgstr "Beställ"
+
+#: inc/admin_views/class-wf-upgrades-settings-view.php:91
+msgid "More info"
+msgstr "Mer info"
+
+#: inc/fortnox/api/class-wf-full-refund-invoices.php:57
+msgid "Refund sent to Fortnox, Invoice number: "
+msgstr "Retur skickad till Fortnox, Fakturanummer: "
+
+#: inc/fortnox/api/class-wf-full-refund-invoices.php:112
+#: inc/fortnox/api/class-wf-partial-refund-invoices.php:79
+msgid "Refund sent to Fortnox ID: "
+msgstr "Retur skickad till Fortnox ID: "
+
+#: inc/fortnox/api/class-wf-invoices.php:226
+msgid "Invoice email sent to customer"
+msgstr "E-post med faktura skickad till kund"
+
+#: inc/fortnox/api/class-wf-orders.php:174
+msgid "Order sent to Fortnox"
+msgstr "Order skickad till Fortnox"
+
+#: inc/fortnox/api/class-wf-orders.php:249
+msgid "Product does not exist"
+msgstr "Produkten finns inte"
+
+#: inc/fortnox/api/class-wf-partial-refund-orders.php:56
+msgid "Refund sent to Fortnox: "
+msgstr "Retur skickad till Fortnox: "
+
+#: inc/fortnox/api/class-wf-request.php:31
+#: inc/fortnox/api/class-wf-request.php:74
+#: inc/fortnox/api/class-wf-request.php:120 inc/fortnox/class-wf-ajax.php:207
+msgid "License key is invalid."
+msgstr "Licensnyckeln är ej giltig."
+
+#: inc/fortnox/class-wf-ajax.php:52
+msgid "Successful"
+msgstr "Organisationsnumret är nu registrerat"
+
+#: inc/fortnox/class-wf-ajax.php:58
+msgid "Timed out"
+msgstr "Timeout"
+
+#: inc/fortnox/class-wf-ajax.php:61
+msgid "No response yet..."
+msgstr "Inget svar än…"
+
+#: inc/fortnox/class-wf-ajax.php:66
+msgid "Organization number is empty"
+msgstr "Organisationsnumret är ej ifyllt"
+
+#: inc/fortnox/class-wf-ajax.php:70
+msgid ""
+"Organization number is invalid, accepted formats: XXXXXX-XXXX or XXXXXXXXXX"
+msgstr ""
+"Organisationsnumret är ej giltigt, giltiga format: XXXXXX-XXXX or XXXXXXXXXX"
+
+#: inc/fortnox/class-wf-ajax.php:79
+#, php-format
+msgid ""
+"Organization number registered, next step is to register app in Fortnox. See "
+"our <a href=\"%s\">installation guide</a> for further instructions."
+msgstr ""
+"Organisationsnummer registrerat, nästa steg är att registrera appen i "
+"Fortnox. Se vår <a href=\"%s\">installationsguide</a> för vidare "
+"instruktioner."
+
+#: inc/fortnox/class-wf-ajax.php:83
+msgid "Error placing request."
+msgstr "Kommunikationsfel."
+
+#: inc/fortnox/class-wf-ajax.php:199
+msgid "License key is empty"
+msgstr "Licensnyckeln är ej ifylld"
+
+#: inc/fortnox/class-wf-ajax.php:205
+msgid "License key is valid."
+msgstr "Licensnyckeln är giltig."
+
+#: inc/fortnox/class-wf-ajax.php:217
+msgid "Accounts fetched."
+msgstr "Konton hämtade."
+
+#: inc/fortnox/class-wf-ajax.php:229
+msgid "Authorization code is empty."
+msgstr "Auktorisationskodsfältet är tomt."
+
+#: inc/fortnox/class-wf-ajax.php:236
+msgid ""
+"Auth code is valid. Access token has been already generated. If you need to "
+"regenerate the access token please flush it using 'Flush access token' "
+"button under the Advanced tab."
+msgstr ""
+"Auktorisationskoden är giltig. Access token har redan genererats. Om du "
+"försöker återskapa en Access Token, använd 'Radera Access Token'-knappen i "
+"Avancerat-fliken."
+
+#: inc/fortnox/class-wf-ajax.php:247
+msgid "Authorisation code is OK. Access token has been generated."
+msgstr "Aukotorisationskoden är giltig. Access Token har skapats."
+
+#: inc/fortnox/class-wf-ajax.php:264
+msgid "Fortnox account has been logged out."
+msgstr "Fortnox-kontot har loggats ut."
+
+#: inc/fortnox/class-wf-plugin.php:125
+msgid "Settings for the WooCommerce - Fortnox integration"
+msgstr "Inställningar för WooCommerce - Fortnox integration"
+
+#: inc/fortnox/class-wf-plugin.php:126 inc/fortnox/class-wf-plugin.php:357
+#: inc/fortnox/class-wf-plugin.php:366
+msgid "Fortnox"
+msgstr "Fortnox"
+
+#: inc/fortnox/class-wf-plugin.php:155
+#: inc/templates/template-popup-fortnox-order-sync.php:53
+#: inc/templates/template-popup-fortnox-product-sync.php:33
+msgid "Start"
+msgstr "Starta"
+
+#: inc/fortnox/class-wf-plugin.php:156
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: inc/fortnox/class-wf-plugin.php:157
+msgid "Creating new..."
+msgstr "Skapar ny..."
+
+#: inc/fortnox/class-wf-plugin.php:159
+msgid "Tracking old task."
+msgstr "Spåra gammal uppgift."
+
+#: inc/fortnox/class-wf-plugin.php:160
+msgid "Interrupted"
+msgstr "Avbruten"
+
+#: inc/fortnox/class-wf-plugin.php:161
+msgid "Please set ranges"
+msgstr "Var god välj intervall"
+
+#: inc/fortnox/class-wf-plugin.php:162
+msgid "Processing Product ID"
+msgstr "Behandlar produkt-id"
+
+#: inc/fortnox/class-wf-plugin.php:163
+msgid "Process done"
+msgstr "Processen klar"
+
+#: inc/fortnox/class-wf-plugin.php:164
+msgid "Process started"
+msgstr "Processen påbörjad"
+
+#: inc/fortnox/class-wf-plugin.php:165
+msgid "Error occurred querying backend with status"
+msgstr "Ett fel uppstod när status skulle hämtas från systemet"
+
+#: inc/fortnox/class-wf-plugin.php:252
+msgid "Order is not synchronized. Order has warnings."
+msgstr "Ordern har inte synkroniserats. Ordern innehåller varningar."
+
+#: inc/fortnox/class-wf-plugin.php:255
+msgid "Order has synchronized"
+msgstr "Ordern har synkroniserats"
+
+#: inc/fortnox/class-wf-plugin.php:255
+msgid "Order has not synchronized"
+msgstr "Ordern har inte synkroniserats"
+
+#: inc/fortnox/class-wf-plugin.php:273
+msgid "Send invoice"
+msgstr "Skicka faktura"
+
+#: inc/fortnox/class-wf-plugin.php:313
+msgid "Product has synchronized"
+msgstr "Produkten har synkroniserats"
+
+#: inc/fortnox/class-wf-plugin.php:313
+msgid "Product has not syncronized"
+msgstr "Produkten har inte synkroniserats"
+
+#: inc/fortnox/class-wf-plugin.php:379 inc/fortnox/class-wf-plugin.php:387
+msgid "Sync changes to Fortnox"
+msgstr "Synkronisera ändringar till Fortnox"
+
+#: inc/fortnox/class-wf-plugin.php:429 inc/fortnox/class-wf-plugin.php:458
+#: inc/fortnox/class-wf-plugin.php:459
+msgid "Organization registration number"
+msgstr "Organisationsnummer"
+
+#: inc/fortnox/class-wf-utils.php:195
+msgid "Fortnox error"
+msgstr "Fortnox Fel"
+
+#: inc/templates/settings.php:344
+msgid "Onboarding assistance"
+msgstr "Kom igång-hjälp"
+
+#: inc/templates/settings.php:355
+msgid "Onboarding documentation"
+msgstr "Kom igång-dokumentation"
+
+#: inc/templates/settings.php:366
+msgid "Video instructions"
+msgstr "Video-instruktioner"
+
+#: inc/templates/settings.php:376
+msgid "Support"
+msgstr "Support"
+
+#: inc/templates/template-popup-fortnox-order-sync.php:19
+msgid "Order sync"
+msgstr "Ordersynk"
+
+#: inc/templates/template-popup-fortnox-order-sync.php:26
+#, php-format
+msgid "Synchronize orders placed from<br>%s to %s"
+msgstr "Synkronisera ordrar lagda från<br>%s till %s"
+
+#: inc/templates/template-popup-fortnox-order-sync.php:31
+msgid "Order status"
+msgstr "Orderstatus"
+
+#: inc/templates/template-popup-fortnox-order-sync.php:39
+#: inc/templates/template-popup-fortnox-product-sync.php:19
+msgid "Progress"
+msgstr "Förlopp"
+
+#: inc/templates/template-popup-fortnox-order-sync.php:52
+#: inc/templates/template-popup-fortnox-product-sync.php:32
+msgid "Start syncing"
+msgstr "Starta synkronisering"
+
+#: inc/templates/template-popup-fortnox-product-sync.php:12
+msgid "Product sync"
+msgstr "Produktsynk"
+
+#: inc/templates/template-popup-fortnox-product-sync.php:27
+msgid "Click start to begin process."
+msgstr "Klicka på Start för att påbörja processen."
+
+#: inc/wetail/admin/class-wf-admin-settings.php:60
+msgid "Save changes"
+msgstr "Spara ändringar"
+
+#: inc/wetail/class-wf-ng-fortnox-auth.php:25
+msgid "Fortnox authentication link expired, please try again."
+msgstr "Fortnox autentiseringslänk har upphört att gälla, försök igen."
+
+#: inc/wetail/class-wf-ng-fortnox-auth.php:29
+msgid "Fortnox authentication was successful."
+msgstr "Fortnox-autentiseringen lyckades."
+
+#~ msgid "Flow"
+#~ msgstr "Flöde"
+
+#~ msgid "installation guide"
+#~ msgstr "installationsguiden"
+
+#~ msgid "Access Token Expiry time."
+#~ msgstr "Access Token Expiry time."
+
+#~ msgid "Refresh Token."
+#~ msgstr "Refresh Token."
+
+#~ msgid "Successful fortnox auth"
+#~ msgstr "Fortnox är nu autentiserat"
+
+#~ msgid ""
+#~ "Fortnox integration for WooCommerce requires WooCommerce to be installed "
+#~ "and active. Plugin deactivated"
+#~ msgstr ""
+#~ "Fortnox-integrationen för WooCommerce kräver att WooCommerce är "
+#~ "installerat och aktiverat. Pluginet har deaktiverats"
+
+#~ msgid "Account 25% VAT"
+#~ msgstr "Konto 25% moms"
+
+#~ msgid "Account 12% VAT"
+#~ msgstr "Konto 12% moms"
+
+#~ msgid "Account 6% VAT"
+#~ msgstr "Konto 6% moms"
+
+#~ msgid "Processing Product ID: "
+#~ msgstr "Behandlar produkt-id: "
+
+#~ msgid "Integration credentials"
+#~ msgstr "Integrationsuppgifter"
+
+#~ msgid ""
+#~ "Your credentials to communicate with Fortnox, <a href=\"https://vimeo."
+#~ "com/107836260\" target=\"_blank\">see instructions</a>."
+#~ msgstr ""
+#~ "Dina uppgifter för att kommunicera med Fortnox, <a href=\"https://vimeo."
+#~ "com/107836260\" target=“_blank”>se instruktioner</a>."
+
+#~ msgid "Register"
+#~ msgstr "Registrera"
+
+#~ msgid "Debug"
+#~ msgstr "Debuggning"
+
+#~ msgid "Unnecessary logging can clog your system resources."
+#~ msgstr "Ej nödvändigt loggande kan belasta dina systemresurser."
+
+#~ msgid "Turn off when not debugging!"
+#~ msgstr "Stäng av när du inte debuggar!"
+
+#~ msgid ""
+#~ "The debug log can be found in <b>WooCommerce</b> -> <b>Status</b> -> "
+#~ "<b>Logs</b>"
+#~ msgstr ""
+#~ "Debug-loggen finns under <b>WooCommerce</b> -> <b>Status</b> -> "
+#~ "<b>Loggar</b>"
+
+#~ msgid "NOT CONNECTED"
+#~ msgstr "EJ ANSLUTEN"
+
+#~ msgid "Organization registration number in Fortnox<br>(if connected)"
+#~ msgstr "Organisationsnummer i Fortnox<br>(om ansluten)"
+
+#~ msgid ""
+#~ "This is a read-only information that shows the organization registration "
+#~ "number of the company in Fortnox that you are connected to."
+#~ msgstr ""
+#~ "Detta är en ej redigerbar information som visar organisationsnumret på "
+#~ "det företag i Fortnox som integrationen har kopplats mot."
+
+#~ msgid "Request placed, waiting for response."
+#~ msgstr "Väntar på svar"
+
+#~ msgid "Sync inventory"
+#~ msgstr "Synkr. lager"
+
+#~ msgid ""
+#~ "Update stock status from Fortnox. It may take a while to synchronise "
+#~ "large shops."
+#~ msgstr ""
+#~ "Hämta lagerstatus från Fortnox. Det kan ta ett tag att hämta om du har en "
+#~ "stor butik."
+
+#~ msgid "Fortnox API code"
+#~ msgstr "Fortnox API-kod"
+
+#~ msgid ""
+#~ "Your authorization code from Fortnox. Create it using <a href=\"https://"
+#~ "support.fortnox.se/hc/sv/articles/208332265-Integrera-Fortnox-med-ett-"
+#~ "annat-system\" target=\"_blank\">these instructions</a> with the keyword "
+#~ "<b>WP-plugs</b>."
+#~ msgstr ""
+#~ "Din auktoriseringskod från Fortnox. Skapa den med hjälp av <a "
+#~ "href=\"https://support.fortnox.se/hc/sv/articles/208332265-Integrera-"
+#~ "Fortnox-med-ett-annat-system\" target=\"_blank\">dessa instruktioner</a> "
+#~ "med sökordet <b>WP-plugs</b>."
+
+#~ msgid "Pending payment"
+#~ msgstr "Väntande betalning"
+
+#~ msgid "Processing"
+#~ msgstr "Behandlar"
+
+#~ msgid "On hold"
+#~ msgstr "Pausad"
+
+#~ msgid "Completed"
+#~ msgstr "Färdig"
+
+#~ msgid "Cancelled"
+#~ msgstr "Avbruten"
+
+#~ msgid "Failed"
+#~ msgstr "Misslyckad"
+
+#~ msgid "Automatically registers a corresponding payment for created invoices"
+#~ msgstr ""
+#~ "Registrerar automatiskt en tillhörande betalning på skapade fakturor"
+
+#~ msgid "Not connected"
+#~ msgstr "Ej ansluten"
+
+#~ msgid "Force synchronization of already synchronized orders"
+#~ msgstr "Tvinga ny synkronisering av redan synkroniserade ordrar"
+
+#~ msgid "TODO: Show the default account"
+#~ msgstr "TODO: Visa förvalt konto"
+
+#~ msgid "Account 0% VAT"
+#~ msgstr "Konto 0% moms"
+
+#~ msgid "The account for products with 0% VAT."
+#~ msgstr "Kontot för produkter med 0% moms."
+
+#~ msgid "Fetch terms"
+#~ msgstr "Hämta villkor"
+
+#~ msgid "Get delivery and payment terms from Fortnox."
+#~ msgstr "Hämta leverans- och betalningsvillkor från Fortnox."
+
+#~ msgid "API-key is invalid."
+#~ msgstr "API Nyckeln är ej giltig."
+
+#~ msgid "License key is empty. Forgot to save changes?"
+#~ msgstr "Licensnyckel är inte ifylld. Har du glömt att spara?"
+
+#~ msgid "Fortnox Organization Number<br>(if connected)"
+#~ msgstr "Organisationsnummer i Fortnox<br>(om ansluten)"
+
+#~ msgid "Invalid plugin page."
+#~ msgstr "Ogiltig plugin-sida"
+
+#~ msgid "Invalid post type."
+#~ msgstr "Ogiltig inläggstyp"
+
+#~ msgid "Bulk Actions"
+#~ msgstr "Masshantering"
+
+#~ msgid "%s updated successfully."
+#~ msgstr "%s  har uppdaterats."
+
+#~ msgid "Select bulk action"
+#~ msgstr "Välj masshantering"
+
+#~ msgid ""
+#~ "Found following products missing on Fortnox:\n"
+#~ "\n"
+#~ msgstr "Found following products missing on Fortnox:"
+
+#~ msgid "Get a list of missing products in Fortnox."
+#~ msgstr "Get a list of missing products in Fortnox."
+
+#~ msgid "Sync all unsynchronized products to Fortnox"
+#~ msgstr "Synkr. alla osynk. produkter till Fortnox"
+
+#~ msgid "Sync all unsynchr. products"
+#~ msgstr "Synkr. alla osynk. products"
+
+#~ msgid "Sync all unsynchronized products to Fortnox."
+#~ msgstr "Synkr. alla osynk. produkter till Fortnox"
+
+#~ msgid "Update orders that have different amount in Fortnox."
+#~ msgstr "Uppdatera ordrar som har annan total i Fortnox"
